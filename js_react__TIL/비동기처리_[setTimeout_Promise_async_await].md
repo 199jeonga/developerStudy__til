@@ -74,7 +74,7 @@ setTimeout의 첫번째 인자는 콜백함수를, 두번째 인자는 시간을
     })
     ```
     
-    ![Untitled](./img/asyncAwait01.png)
+    ![Untitled](./img/asyncAwait02.png)
     
     **3이 호출되지 않은 이유는 두번째 then에서 다음 Promise를 반환할 때 false로 값을 반환시켰기 떄문에 세번째 then은 resolve가 아닌 reject를 반환하여 catch가 실행되었다.**
     
